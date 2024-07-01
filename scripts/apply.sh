@@ -17,3 +17,6 @@ kubectl apply -f ingress/app-ingress.yaml
 kubectl apply -f service/api-service.yaml 
 kubectl apply -f service/crawler-service.yaml 
 kubectl apply -f service/web-service.yaml 
+
+# pvc
+kubectl apply -f pvc/api-pvc.yaml 
