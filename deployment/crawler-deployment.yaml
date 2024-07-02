@@ -11,6 +11,7 @@ spec:
       app: synergychat-crawler
   template:
     metadata:
+      namespace: crawler
       labels:
         app: synergychat-crawler
     spec:
