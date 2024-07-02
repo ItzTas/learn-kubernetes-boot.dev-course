@@ -26,3 +26,4 @@ kubectl apply -f pvc/api-pvc.yaml
 
 # hpa
 kubectl apply -f hpa/testcpu-hpa.yaml 
+kubectl apply -f hpa/web-hpa.yaml 
